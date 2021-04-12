@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="#" class="logo header__logo">
+                <img src="img/Logo.png" alt="Nike">
+            </a>
+            <nav class="header_menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">LIFESTYLE</a></li>
+                    <li class="menu__item menu_item--activ"><a class="menu__link" href="#">RUNNING</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">FOOTBALL</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">SKATEBOARDING</a></li>
+                </ul>
+            </nav>
+            <buutton class="burger header_burger">
+                <img src="img/Burger.png" alt="Burger">
+            </buutton>
+        </header> 
+        <article class="product-card">
+            <div class="product-image product-card__image">
+                <ul class="product-image__thumbneils">
+                    <li class="product-image__thumbneil"> <img src="img/Thumbnail_1.png" alt="Thumbnail"> </li>
+                    <li class="product-image__thumbneil"> <img src="img/Thumbnail_2.png" alt="Thumbnail"> </li>
+                    <li class="product-image__thumbneil"> <img src="img/Thumbnail_3.png" alt="Thumbnail"> </li>
+                </ul>
+                <button class="product-image__zoom">
+                    <img src="img/Plus.png" alt="Zoom">
+                </button>
+            </div>
+            <div class="product-info product-card__info">
+                <div class="label product-info__label"> New</div>
+                <h1 class="product-info_title">THE <span>RUNNING</span> HAS JUST BEGUN</h1>
+                <div class="horizontal-spacing">
+                    <h3 class="product-info_subtitle">Huarache</h3>
+                    <ul class="rating product-info__rating">
+                        <li class="rating_star"><img src="img/Star (1).png" alt="Star"></li>
+                        <li class="rating_star"><img src="img/Star (1).png" alt="Star"></li>
+                        <li class="rating_star"><img src="img/Star (1).png" alt="Star"></li>
+                        <li class="rating_star"><img src="img/Star (1).png" alt="Star"></li>
+                        <li class="rating_star"><img src="img/Star.png" alt="Star"></li>
+                    </ul>
+                </div>
+                <div class="product-info_praice">$ 200</div>
+                <div class="size-select product-info__size"> 
+                    <h4 class="size-select__title">Size</h4>
+                    <ul class="size-select__list">
+                        <li class="size-select__item">7</li>
+                        <li class="size-select__item">8</li>
+                        <li class="size-select__item">9</li>
+                        <li class="size-select__item size-select__selected">10</li>
+                        <li class="size-select__item">11</li>
+                    </ul>
+                </div>  
+                <button class="button button--praimary product-info__add-to-card">ADD TO CART</button>
+                <button class="button">WISHLIST</button>
+            </div>
+            <button class="product-card__close"><img src="img/Close.png" alt="Close"></button>
+
+        </article>
+
+    </div>
+</body>
+</html>
